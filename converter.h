@@ -278,7 +278,7 @@ bool algorithm0_directly_image(const char *img){
                 else
                     down_row=0;
 
-                /*//Then Write Console
+                /*//Then Write Console DEBUG
                 if (c+1==main_h && b+1==main_w){
                     //getchar();
                     system("cls");
@@ -577,15 +577,15 @@ bool algorithm0_use_matris(const char *img){
             clr=temporary.color_returner(b,c);
             r=clr.r;
             g=clr.g;
-            bl=clr.b;                                               ///Get color
-            if (r<35) r=35;                                         ///SKIP color<35 :S
+            bl=clr.b;                                            
+            if (r<35) r=35;                                         
             if (g<35) g=35;
             if (bl<35) bl=35;
 
-            if (r>=48 && r<=57) r=47;                               ///SKIP THE ALREADY NUMBER CHARS Have no solition 35+9 pixels skipped
-            if (g>=48 && g<=57) g=47;                               ///Need a solition
-            if (bl>=48 && bl<=57) bl=47;                            ///Even take a close look in images no ones could notice these
-                                                                    ///900,000 color of 16,581,375 lost here
+            if (r>=48 && r<=57) r=47;                             
+            if (g>=48 && g<=57) g=47;                              
+            if (bl>=48 && bl<=57) bl=47;                            
+                                                                   
 
             matrix[0][c][b]=r;
             matrix[1][c][b]=g;
