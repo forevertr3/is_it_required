@@ -1,10 +1,10 @@
 /*Luckly i found easiest zipping on c++ from net. That goes with Image creator Image.cpp.
-So zip.cpp and image.cpp isnt my own code.
+So zip.cpp and image.cpp isnt my own code. Currently wont be used
+
 Currenty working for find some good algorithm, if i came up some good ones and
 make that work, believe that i replace a really Good GUI with working QT. With that
 i set my goals
-Also My deepest goal is apply that algorithm on videos. Even current method could spare a
-little space in videos, probably but needs ton of work.
+
 Also needs memory optimize, when numbers do a actual work it could become a total disaster for RAM
 Osman Semi Ceylan17
 */
