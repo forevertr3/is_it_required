@@ -9,4 +9,5 @@
     Dinamik Bağlama için: -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer -lSDL2_gfx ekleyiniz. 
     
     Open File Dialog için libcommdlg32 'yi de ekleyiniz.
+    Data Klöründekileri de kodların bulunduğu ana dizine çıkartınız
     
