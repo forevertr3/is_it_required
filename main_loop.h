@@ -24,7 +24,6 @@ void main_loop(struct SDL_Renderer *gRenderer, string work_path){
     LTexture black;
     //cout << work_path;
     black.loadFromFile("black.png");                                      /*Need a data dir*/
-    logo.loadFromFile("logo1.jpg");
 
     yan_cubuk tab(gRenderer);
     SDL_Rect all_screen, rect1;
